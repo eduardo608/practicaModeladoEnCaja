@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    background: rgb(247, 252, 252);
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(175, 168, 168);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.divlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a:hover{
+    color: rgb(109, 108, 107);
+} 
+
+nav a {
+    padding: 15px 15px;
+}
+.boxx{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+.enlace{
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
