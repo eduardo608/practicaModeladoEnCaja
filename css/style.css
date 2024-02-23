@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    inset: 0;
+    margin: auto;
+}
+.item{
+    padding: 23px;
+    background: rgb(240, 235, 235);
+    box-sizing: border-box; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+}
